@@ -82,3 +82,7 @@ Click on add a new project and create a new project in firebase. Then go to the 
 After fiishing the above step, click on the 'Database' option on the left side of the window. Then scroll down to the section of Realtime Database and the click on create database. Enable it in test mode to add data into your database. This will configure your firebase settings.
 
 ### To run project go to the project directory and run `npm start`.
+
+The App looks like below :
+
+![Notes App](https://github.com/rak-shit/react-notes-app/blob/master/Screenshot%202019-12-14%20at%201.04.11%20PM.png)
