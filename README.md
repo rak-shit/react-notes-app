@@ -66,3 +66,19 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## To configure firebase
+
+In the project directory, you can run: 
+
+### `npm i firebase` <br />
+
+Go to : https://firebase.google.com/ and sign-in using your google account. Click on 'Go to console' on the top right corner.  <br />
+
+Click on add a new project and create a new project in firebase. Then go to the project settings. Scroll down to the App section and replace the `const firebaseConfig` in 'src/index.js' with the below shown code.
+
+![Configuring Firebase](https://github.com/rak-shit/react-notes-app/blob/master/Screenshot%202019-12-14%20at%2012.46.23%20PM.png)
+
+After fiishing the above step, click on the 'Database' option on the left side of the window. Then scroll down to teh section of Realtime Database and the click on create database. Enable it in test mode to add data into your database. This will configure your firebase settings.
+
+### To run project go to the project directory and run `npm start`.
